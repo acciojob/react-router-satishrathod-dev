@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <h1>About</h1>
+      <h1>This is a sample React Router program.</h1>
     </div>
   );
 };

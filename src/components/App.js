@@ -3,7 +3,7 @@ import "./../styles/App.css";
 import Navbar from "./Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import About from "./About";
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </div>
   );
